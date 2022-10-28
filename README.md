@@ -4,7 +4,8 @@
 Este é o teste de WEB que esta automatizado
 
 ##  Requisitos :book:
-
+ 
+ * Eclipse
  * Java 11.0.16 + JDK deve estar instalado
  * cucumber-java 7.3.4
  * cucumber-junit 7.3.4
