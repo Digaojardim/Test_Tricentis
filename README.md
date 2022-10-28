@@ -6,10 +6,10 @@ Este é o teste de WEB que esta automatizado
 ##  Requisitos :book:
 
  * Java 11.0.16 + JDK deve estar instalado
- * rest-assured 4.0.0 
- * junit 4.12
- * gson 2.9.1
- * json-schema-validator 4.0.0
+ * cucumber-java 7.3.4
+ * cucumber-junit 7.3.4
+ * ashot 1.5.4
+ * junit 4.13.1
  
  ## Como executar a aplicação :arrow_forward:
  A aplicação estará disponível através da URL ["http://sampleapp.tricentis.com/101/app.php"]
@@ -41,5 +41,5 @@ public class Executa extends Browsers{
 
 
 ## Obs: :exclamation:
-Algumas requisições deram erros nos estatusCode
-* **DeletarSimulacaoTest** era pra retornar 204, retorno 200
+  Contem uma pasta de Evidências
+**Evidências*** duas imagem e um video.
