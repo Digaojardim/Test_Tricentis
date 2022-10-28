@@ -42,4 +42,4 @@ public class Executa extends Browsers{
 
 ## Obs: :exclamation:
   Na raiz do plojeto Contem uma pasta de 
-**Evidências*** duas imagem e um video.
+**Evidências*** duas imagens e um video.
