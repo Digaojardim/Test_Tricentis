@@ -16,7 +16,7 @@ Este é o teste de WEB que esta automatizado
 
 
 ## Execução do Teste
- Para executar o teste completo, **Suite.classe**
+ Para executar o teste completo, **Executa**
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
