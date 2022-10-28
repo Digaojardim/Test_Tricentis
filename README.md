@@ -1,0 +1,2 @@
+# Test_Tricentis
+DESAFIO TÉCNICO AUTOMAÇÃO - SPECIALIZED
