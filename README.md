@@ -18,14 +18,27 @@ Este é o teste de WEB que esta automatizado
 ## Execução do Teste
  Para executar o teste completo, **Suite.classe**
 
-* @RunWith(org.junit.runners.Suite.class)
-* @SuiteClasses({
-	* RestricaoTest.class,
-	* CadastroTest.class,
-	* AtualizaumaSimulaçãoTest.class,
-	* NovaSimulacaoTest.class,
-	* SimulacaoTest.class,
-	* DeletarSimulacaoTest.class,
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		 // camainho das features
+		 features = "src/test/resources/features/",
+		// caminho dos steps de testes
+		 glue = "Trincentis",
+		//tag para indicar qual teste deverá ser executado
+		 tags = "@executa",
+		// pretty deixar o console igual a execução cucumber | html para
+		 plugin = { "pretty", "html:target/report.html" },
+		 //não executar o teste, validar se foi incluso algum novo bdd,
+		 // FALSE
+		 dryRun = false,
+		 monochrome = true
+		
+		
+)
+public class Executa extends Browsers{
+
+}
+
 
 ## Obs: :exclamation:
 Algumas requisições deram erros nos estatusCode
